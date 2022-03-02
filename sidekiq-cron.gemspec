@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
-    ".travis.yml",
+    ".github/workflows/ci.yml",
     "Changes.md",
     "Dockerfile",
     "Gemfile",
@@ -79,7 +79,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<slim>.freeze, [">= 0"])
       s.add_development_dependency(%q<sinatra>.freeze, [">= 0"])
       s.add_development_dependency(%q<mocha>.freeze, [">= 0"])
-      s.add_development_dependency(%q<coveralls>.freeze, [">= 0"])
       s.add_development_dependency(%q<shotgun>.freeze, [">= 0"])
       s.add_development_dependency(%q<guard>.freeze, [">= 0"])
       s.add_development_dependency(%q<guard-minitest>.freeze, [">= 0"])
@@ -99,7 +98,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<slim>.freeze, [">= 0"])
       s.add_dependency(%q<sinatra>.freeze, [">= 0"])
       s.add_dependency(%q<mocha>.freeze, [">= 0"])
-      s.add_dependency(%q<coveralls>.freeze, [">= 0"])
       s.add_dependency(%q<shotgun>.freeze, [">= 0"])
       s.add_dependency(%q<guard>.freeze, [">= 0"])
       s.add_dependency(%q<guard-minitest>.freeze, [">= 0"])
@@ -120,7 +118,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<slim>.freeze, [">= 0"])
     s.add_dependency(%q<sinatra>.freeze, [">= 0"])
     s.add_dependency(%q<mocha>.freeze, [">= 0"])
-    s.add_dependency(%q<coveralls>.freeze, [">= 0"])
     s.add_dependency(%q<shotgun>.freeze, [">= 0"])
     s.add_dependency(%q<guard>.freeze, [">= 0"])
     s.add_dependency(%q<guard-minitest>.freeze, [">= 0"])
